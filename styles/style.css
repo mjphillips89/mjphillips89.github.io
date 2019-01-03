@@ -1,0 +1,307 @@
+.wrapper{
+	width:960px;
+	margin: 0 auto;
+}
+
+html, body { 
+	margin: 0; padding: 0; 
+}
+
+h1, h2, h3, h4, h5{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: #237D81;
+}
+h2{
+	margin-top: 50px;
+}
+
+h4{
+	font-weight: normal;
+}
+
+p{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: #525252;
+}
+
+li{
+	display:inline;
+}
+
+ul ul{
+	display: none;
+	position: absolute; top: 100%;
+}
+ul li:hover > ul {
+	display: block;
+}
+ul ul li{
+	padding: 10px; 
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  	border: 0px solid #525252;
+  	background-color: #ffffff;
+  	color:#237D81;
+  	font-size: 18px;
+  	text-decoration: none;
+}
+ul li:first-child { border-left: none; }
+
+hr{
+	border: 1px solid #525252;
+}
+a {
+	color: #237D81;
+}
+figure{
+	padding-top: 40px;
+	text-align:center;
+	padding-bottom: 20px;
+}
+img{
+	max-width: 800px;
+	text-align: center;
+}
+.image{
+	max-width: 800px;
+	border-style: solid;
+    border-color: #bcbcbc;
+}
+.image:hover{
+	border-style: solid;
+    border-color: #237D81;
+}
+figcaption{
+	padding-top: 5px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: #525252;
+}
+
+.navwrap{
+	width:100%;
+	background-color: #ffffff;
+	z-index: 998;
+
+}
+.navbar{
+
+	width:960px;
+	background-color: #ffffff;
+	z-index: 999;
+}
+.logo{
+	position: relative;
+	left:-40px;
+	float:left;
+}
+.menu{
+	padding-top: 40px;
+
+	float:right;
+}
+.green{
+	color: #237D81;
+
+}
+.menu-link{
+	padding: 10px; 
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  	border: 0px solid #525252;
+  	font-size: 18px;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+.menu-link:hover{
+	color:#53a9ac;
+
+}
+
+.section{
+	padding-top:140px;
+
+}
+.personalimage{
+   float: left;
+   padding-left: 100px;
+   margin-right: 10px;
+}
+#about{
+	display: none;
+	margin-bottom: 80px;
+}
+.abouthead{
+
+}
+.voiceintro{
+	text-align: center;
+	color: #237D81;
+	font-size: 36px;
+}
+.voice2{
+	text-align: center;
+	color: #237D81;
+	font-size: 22px;
+}
+.voice{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: #525252;
+	font-size: 18px;
+	padding-left:100px; 
+	padding-right:100px; 
+}
+.projectname{
+	padding: 10px;
+	display: inline-block;
+	margin-right:15px; 
+	margin-left:15px;
+    width: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.projectname:hover{
+
+}
+.projectname:hover p {
+	color:#53a9ac;
+}
+.projectname:hover h3 {
+	color:#53a9ac;
+}
+.projectname:hover .tags{
+	color: #ffffff;
+}
+.projectname:hover .projectimage{
+	opacity:1;
+}
+.tags{
+	color: #237D81;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+.icon{
+	height: 200px;
+	width: 380px;
+	background-color: #ffffff; 
+	border-style: solid;
+	border: 1px;
+	overflow: hidden; 
+}
+.projectimage{
+
+	opacity:.9;
+	
+}
+.projectimage img{
+	height: 200px;
+	width: 379px;
+}
+.column{
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 10px;
+}
+.contenthead{
+	padding-right:30px;
+
+}
+.goal{
+
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	color: #525252;
+	font-size: 20px;	
+}
+.box{
+	padding-left: 170px;
+}
+.contentprocess{
+	margin-top:80px;
+	margin-bottom:80px;
+}
+.footer{
+	width: 100%;
+	height:200px;
+	background-color:#237D81;
+
+}
+.foottext{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 50px;
+}
+.footwrap{
+	padding-top:140px;
+}
+.contact{
+	text-align: center;
+	color:#ffffff;
+	margin-left: -7px;
+}
+.fa{
+	padding-left:5px; 
+	padding-right:5px;
+}
+#projectdisplay1{
+	display: none;
+}
+#projectdisplay2{
+	display: none;
+}
+#projectdisplay3{
+	display: none;
+}
+#projectdisplay4{
+	display: none;
+}
+#projectdisplay5{
+	display: none;
+}
+#projectdisplay6{
+	display: none;
+}
+#projectdisplay7{
+	display: none;
+}
+#projectdisplay8{
+	display: none;
+}
+.projectlink{
+	margin-top: 100px;
+	text-align: center;
+	margin-left: -50px;
+}
+.seemore{
+	color: #237D81;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+.seemore:hover {
+	color:#53a9ac;
+
+}
+.white{
+	color: #ffffff;
+}
+.moreprojects{
+	display: none;
+
+}
+.list { 
+	padding-left:60px; 
+	padding-right:60px; 
+}
+ol.list  { 	
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;  
+	font-size:16px;
+}
+.list ol li{
+	padding-bottom: 5px;
+	display: list-item;
+	list-style-type: square;
+}
+#portfolio{
+	margin-top: 60px;
+}
+.portfoliowrap{
+	padding-left: 50px;
+}
